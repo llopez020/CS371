@@ -1,0 +1,7 @@
+1. In IglooScore2, on line 58, it is impossible to reach full coverage if args is both checked for null and args.length is checked for 3. Fixed by removing args null check.
+
+2. In IglooScore1, it would not correctly calculate the the smallest score. I changed line 38 to correctly determine the right smallest score.
+
+3. In IglooScore2, on line 43, score2 should be score3. I replaced this.
+
+4. In IglooScore2, in some cases, it would return 198. I made sure these cases did not happen by replacing line 48 and 49.
